@@ -1,0 +1,32 @@
+<section id="services" class="services__section">
+  <div class="container">
+    <div class="services__row">
+      <div class="services__grid">
+        <div class="services__desc">
+          <h2> {{h.services_section.title}} </h2>
+          <div class="services__text">
+            {{h.services_section.text | markdownify}}
+          </div>
+          <div class="services__btn">
+            <a href="{{h.services_section.btn-link}}">{{h.services_section.btn}}</a>
+          </div>
+        </div>
+        <div class="services__items-container">
+          {%- for i in h.services_section.items -%}
+          <div class="services__item">
+            <div class="item__top">
+              <img width="80" src="{{i.icon}}" alt="{{i.title}}">
+              <div class="item__title">
+                <h3>{{i.title}}</h3>
+              </div>
+            </div>
+            <div class="item__text">
+              {{i.text | markdownify}}
+            </div>
+          </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

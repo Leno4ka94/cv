@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-US" class="">
 {%- include head.html -%}
-<body>
-  {%- include header.html -%}
-  <main>
-    {{content}}
-  </main>
-  {%- include footer.html -%}
+
+<body class="{{page.page_id}}">
+  <div class="wrapper">
+
+    {{ content }}
+
+    {%- include footer.html -%}
+  </div>
+  <script src="/assets/js/filter-block.js"></script>
 </body>
+
 </html>

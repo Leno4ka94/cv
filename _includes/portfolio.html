@@ -1,0 +1,37 @@
+{%- assign portfolio = site.data.homepage.portfolio_section -%}
+<section class="portfolio__section">
+  <div class="container">
+    <h2>{{portfolio.title}}</h2>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> All </button>
+      <button class="btn" onclick="filterSelection('design')"> Web Design</button>
+      <button class="btn" onclick="filterSelection('development')"> Web Develop</button>
+    </div>
+    <div class="portfolio__section container">
+      <div class="portfolio">
+        {%- for p in portfolio.items -%}
+        <div class="portfolioDiv portfolio__item {{p.class}} ">
+          <img src="{{p.image}}" alt="{{p.title}}">
+          <div class="portfolio__content">
+            <h3>{{p.title}}</h3>
+            {{p.text | markdownify}}
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+<div class="filter_block container">
+  <div class="filter">
+      {%- for f in filter.items -%}
+          <div class="filterDiv filter_item {{f.class}} ">
+              <img src="{{f.image}}" alt="{{f.title}}">
+              <div class="filter_content">
+                  <h3>{{f.title}}</h3>
+                  <p>{{f.description}}</p>
+              </div>
+          </div>
+      {%- endfor -%}
+  </div>
+</div>

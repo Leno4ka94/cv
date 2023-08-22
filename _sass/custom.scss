@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+:root {
+  --h1-color: #FD25A4;
+  --main-color: #415DA5;
+  --text-color: #45525C;
+  --subtext-color: grey;
+  --shadow-color: 0px 0px 29px 0px rgba(65, 93, 165, 0.25);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  background-image: url(/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  z-index: -1;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+
+  @media (min-width: 500px) {
+    background-position: left;
+  }
+
+  .hero__content {
+    text-align: center;
+  }
+  
+  .hero__text {
+    margin-top: 55px;
+    color: rgba(0, 0, 0, 0.39);
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

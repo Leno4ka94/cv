@@ -1,0 +1,48 @@
+a {
+  color: var(--text-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1 {
+  color: var(--h1-color);
+  font-size: 70px;
+  line-height: 98.3%;
+  @media (min-width: 600px) {
+    font-size: 90px;
+  }
+}
+
+h2{
+  color: #44525B;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 10;
+  word-break: break-word;
+  @media (min-width: 600px) {
+    font-size: 70px;
+  }
+}
+
+h3{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 15px;
+}

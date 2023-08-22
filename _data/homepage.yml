@@ -1,0 +1,105 @@
+hero_section:
+  title: Lozovitska Olena
+  subtitle: Web Designer & Web Developer
+
+about_section:
+  title: About Myself
+  image: /assets/images/about.png
+  text: |
+    I am Olena and my vocation is a designer and web developer. Of course, like most people, I did not immediately understand this. But time passed, I grew up and started looking for myself. 
+
+    I first became interested in design, and then in frontend. Now I am moving in this direction and improving my knowledge. At the moment, I stopped at the development of static sites, namely based on Jekyll, but I am open to any cooperation.
+
+    <span>I will be glad to meet you and work with you.</span>
+
+services_section:
+  title: Services I offer
+  text: |
+    I approach each type of work with maximum responsibility so that the client at the finish line remains satisfied and returns for my services again.
+  btn: Get In Touch
+  btn-link: "#contact"
+  items:
+    - title: Design
+      text: |
+        Create design site on Figma, Photoshop. Creating a unique and interactive design. Website redesign in a short period of time.
+      icon: assets/images/design-icon.svg
+    - title: Conversion
+      text: |
+        Website conversion from WordPress, Joomla, Drupal, etc to Jekyll or Gatsby.
+      icon: assets/images/code-icon.svg
+    - title: Transforming
+      text: |
+        Layout of design in Figma transforming to Jekyll website.
+      icon: assets/images/transform-icon.svg
+    - title: Development
+      text: |
+        Deployment of the site on CMS, such as Netlify, etc.
+      icon: assets/images/dev-icon.svg
+
+portfolio_section:
+  title: Portfolio 
+  btn: Load More
+  btn-link: "#"
+  items: 
+    - title: Religion Call for Papers
+      text: |
+        A blog done on Jekyll. In addition to the blog, RSS was imported here in the form of XML.
+      image: assets/images/religion.png
+      class: design development
+    - title: Let’s Be Happy
+      text: |
+        Commercial website of Audrey Handel, psychological consultant and healer-shaman.
+      image: assets/images/lets-be-happy.png
+      class: design
+    - title: Swokiz
+      text: |
+        Emerging IT company offering digital transformation and software development services to clients in various business sectors.
+      image: assets/images/swokiz.png
+      class: design development
+    - title: Mighty Crop
+      text: |
+        Website conversion from WordPress to Jekyll.
+      image: assets/images/mighty-crop.png  
+      class: development  
+    - title: Firm Foundation Farm
+      text: |
+        Site about farm which dedicated to providing with high-quality, sustainably-raised meat and produce.
+      image: assets/images/farm.png 
+      class: design development
+    - title: To Do
+      text: |
+        Site about simple application that will facilitate the planning of your personal time.
+      image: assets/images/to-do.png 
+      class: design development
+    - title: 360 Virtual Tour
+      text: |
+        Site about simple application that will facilitate the planning of your personal time.
+      image: assets/images/virtual-tours.png
+      class: design
+    - title: Cyber security
+      text: |
+        Site about simple application that will facilitate the planning of your personal time.
+      image: assets/images/cyber.png
+      class: design
+
+testimonials_section: 
+  title: Testimo&shy;nials
+  items:
+    - image: assets/images/t1.png
+    - image: assets/images/t2.png
+    - image: assets/images/t3.png
+    - image: assets/images/t4.png
+    - image: assets/images/t5.png
+    - image: assets/images/t6.png
+    - image: assets/images/t7.png
+    - image: assets/images/t8.png
+    - image: assets/images/t9.png
+    - image: assets/images/t10.png
+    - image: assets/images/t11.png
+    - image: assets/images/t12.png
+
+contact_section:
+  title: Reach out if you have any inquiries!
+  text: |
+    Ready to turn your digital vision into reality? Let's collaborate and create something amazing together. Reach out to me today and let's start building your dream website.
+  btn: Submit
