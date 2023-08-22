@@ -1,0 +1,47 @@
+---
+layout: default
+title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
+---
+
+{%- assign d = site.data.dive -%}
+
+<div class="menu">
+  {%- for i in d.menu -%}
+    <div class="menu_item">
+      <p>{{i.descr}}</p>
+      <a href="{{i.link}}">{{i.name}}</a>
+    </div>
+  {%- endfor -%}
+  <a href="{{d.menu_cta.link}}" class="cta">{{d.menu_cta.label}}</a>
+</div>
+
+<h1>{{page.title}}</h1>
+
+{%- for s in d.sections -%}
+  <div class="section">
+    <div class="info">
+      <p>{{s.intro}}</p>
+      <h2>{{s.title}}</h2>
+      {%- if s.text -%}
+      <div class="text">
+        {{s.text | markdownify }}
+      </div>
+      {%- endif -%}
+      {%- if s.cta -%}
+        <a href="{{s.cta.link}}">{{s.cta.label}}</a>
+      {%- endif -%}
+    </div>
+    <div class="image">
+      <img src="{{s.image}}" alt="{{s.title}}">
+    </div>
+  </div>
+{%- endfor -%}
+
+<div class="cards_grid">
+    {%- for c in d.cards -%}
+      <div class="card_item">
+        <img src="{{c.image}}" alt="{{c.name}}">
+        <caption>{{c.name}}</caption>
+      </div>
+    {%- endfor -%}
+</div>

@@ -1,0 +1,85 @@
+menu:
+-
+  descr: Take a look to our
+  name: VISION
+  link: "#"
+-
+  descr: Get to nkow the WeHomies
+  name: TEAM
+  link: "#"
+-
+  descr: Follow this amazing adventure in our
+  name: CRISPY GALLERY
+  link: "#"
+menu_cta:
+  label: LAUNCH APP
+  link: "#"
+
+sections:   
+-
+  intro: |
+    Travel with The WeHomies, collect
+    Svenir NFTs, earn $SVNR and join
+    the global innovation souvenir
+    revolution club.
+  title: |
+    Geolocated
+    collectibles in
+    the real world
+    and in the
+    metaverse
+  cta:
+    label: READ WHITE PAPER 
+    link: "#"
+    text: 
+  image: "#"
+-
+  intro: GET TO NKOW OUR UNIQUE AND HUMAN
+  title: Vision
+  text: |
+    Svenir has been created with the
+    fundamental goal of celebrating
+    ***humanity, the forests, the ocean
+    and life in general, trought the
+    artistic expression.***
+
+    **Svenir reminds us how
+    awesome humanity and
+    mother nature is, and how
+    important is to fight for its
+    permanence and wellbeing.**
+  image: "#"
+-
+  intro: TAKE A LOOK TO OUR
+  title: Mission
+  text: |
+    "With SVNR, a game changer in the
+    souvenir market, **you can travel the
+    world, learn about history, awake your
+    consciousness and meet your fellow
+    animals and plants that are sharing
+    this awesome planet with you.**
+
+    By following The We homies adventures,
+    you can collect good looking and happy
+    NFTs.
+
+    **Think of SVRN as a new ecosystem** with
+    features from Wikipedia, OpenSea,
+    Travel Advisor, Instagram, Airbnb, Bored
+    Ape Yacht Club and Bitcoin that come
+    together **with the fundamental goal of
+    creating knowledge spillovers that help
+    saving humanity and mother nature.**"
+
+cards:
+- name: BIG ZEUS 
+  image: 
+- name: BIG ZEUS 
+  image: 
+- name: BIG ZEUS 
+  image: 
+- name: BIG ZEUS 
+  image: 
+- name: BIG ZEUS 
+  image: 
