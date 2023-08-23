@@ -2,11 +2,11 @@ nav:
 - title: Home
   link: /
 - title: About
-  link: /#about/
+  link: "#about"
 - title: Services
-  link: /#services/
+  link: "#services"
 - title: Portfolio
-  link: /#portfolio/\
+  link: "#portfolio"
 - title: Testimonials
   link: "#testimonials"
 - title: Contact

@@ -50,26 +50,29 @@
     margin: 0 auto;
   }
 
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     border-radius: 10px;
     border: 0.5px solid var(--main-color);
     padding: 15px 25px;
   }
-  ::placeholder{
+
+  ::placeholder {
     font-family: "Lato";
     color: rgba(69, 82, 92, 0.38);
     font-size: 14px;
+    font-style: italic;
   }
 }
 
 .contact__btn {
   text-align: right;
-  .button{
+
+  .button {
     font-size: 20px;
     background-color: transparent;
     color: var(--main-color);
+    cursor: pointer;
   }
 }
-
-.submit__btn {}
