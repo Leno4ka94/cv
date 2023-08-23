@@ -41,26 +41,26 @@ portfolio_section:
   btn: Load More
   btn-link: "#"
   items: 
-    - title: Religion Call for Papers
-      text: |
-        A blog done on Jekyll. In addition to the blog, RSS was imported here in the form of XML.
-      image: assets/images/religion.png
-      class: design development
     - title: Let’s Be Happy
       text: |
         Commercial website of Audrey Handel, psychological consultant and healer-shaman.
       image: assets/images/lets-be-happy.png
       class: design
-    - title: Swokiz
-      text: |
-        Emerging IT company offering digital transformation and software development services to clients in various business sectors.
-      image: assets/images/swokiz.png
-      class: design development
     - title: Mighty Crop
       text: |
         Website conversion from WordPress to Jekyll.
       image: assets/images/mighty-crop.png  
       class: development  
+    - title: Religion Call for Papers
+      text: |
+        A blog done on Jekyll. In addition to the blog, RSS was imported here in the form of XML.
+      image: assets/images/religion.png
+      class: design development
+    - title: Swokiz
+      text: |
+        Emerging IT company offering digital transformation and software development services to clients in various business sectors.
+      image: assets/images/swokiz.png
+      class: design development
     - title: Firm Foundation Farm
       text: |
         Site about farm which dedicated to providing with high-quality, sustainably-raised meat and produce.

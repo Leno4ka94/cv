@@ -1,4 +1,5 @@
 .testimonials {
+  overflow: hidden;
   position: relative;
   padding: 100px 0;
   background: radial-gradient(859.27% 166.24% at 3.65% -46.45%, rgba(65, 93, 165, 0.01) 0%, rgba(65, 93, 165, 0.05) 35.42%, rgba(65, 93, 165, 0.05) 50.61%, rgba(65, 93, 165, 0.00) 100%);
@@ -9,7 +10,7 @@
     background-image: url(/assets/images/flowers.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 45%;
+    width: 620px;
     height: 100%;
     top: 0;
     left: 0;
@@ -64,6 +65,11 @@
     border-radius: 50%;
     height: 13px;
     width: 13px;
+    border: 1px solid var(--text-color);
+    opacity: 0.6;
+    @media (min-width: 768px) {
+      opacity: 0.2;
+    }
   }
 
   .swiper-pagination-bullet:hover {
@@ -72,5 +78,7 @@
 
   .swiper-pagination-bullet-active {
     background-color: var(--h1-color);
+    opacity: 1;
+    border: 1px solid transparent;
   }
 }

@@ -1,0 +1,20 @@
+{%- assign f = site.data.footer -%}
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="copyright">
+        <p>
+          Copyright &copy;
+          {{ 'now' | date: "%Y" }}
+          {{f.copyright}}
+        </p>
+      </div>
+      <div class="site_socials">
+        {%- for i in f.socials -%}
+          <a class="icon-{{forloop.index}}" href="{{i.link}}">{% include {{i.icon}}%}</a>
+        {%- endfor -%}
+    </div>
+    </div>
+  </div>
+</footer>

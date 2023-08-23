@@ -1,0 +1,24 @@
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact__grid">
+      <div class="contact__content">
+        <h2>{{h.contact_section.title}}</h2>
+        {{h.contact_section.text | markdownify}}
+      </div>
+      <div class="contact__form">
+        <form id="contactForm" action="" method="post">
+          <input type="text" id="name" name="name" placeholder="Your name"
+            autocomplete="off" required="">
+          <input type="email" id="email" name="email" placeholder="Your email"
+            autocomplete="off" required="">
+          <textarea id="subject" name="message"
+            placeholder="Write message..." style="height:200px"
+            required=""></textarea>
+          <div class="contact__btn">
+            <button class="button" type="submit" value="submit" id="back" class="submit__btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -9,6 +9,9 @@
 
   .portfolio__item {
     max-width: 500px;
+    @media (min-width: 1440px) {
+      max-width: 440px;
+    }
   }
 
   .portfolio__content {
