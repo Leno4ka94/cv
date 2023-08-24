@@ -31,9 +31,8 @@ body {
   color: var(--text-color);
 }
 
-.wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
+body.lock {
+  overflow: hidden;
 }
 
 .container {
@@ -57,7 +56,14 @@ section {
   color: var(--main-color);
   border: 3px solid #415DA5;
   padding: 10px 30px;
+
   @media (min-width: 600px) {
     padding: 18px 50px;
+  }
+
+  &:hover {
+    background-color: var(--main-color);
+    color: white;
+    transition: all 0.3s ease-in-out;
   }
 }

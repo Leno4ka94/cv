@@ -2,6 +2,7 @@
 <section id="portfolio" class="portfolio__section">
   <div class="container">
     <h2>{{portfolio.title}}</h2>
+    <p class="subtitle">{{portfolio.subtitle}}</p>
     <div id="myBtnContainer">
       <button class="btn active" onclick="filterSelection('all')"> All </button>
       <button class="btn" onclick="filterSelection('design')"> Web Design</button>
@@ -10,13 +11,13 @@
     <div class="portfolio__section container">
       <div class="portfolio">
         {%- for p in portfolio.items -%}
-        <div class="portfolioDiv portfolio__item {{p.class}} ">
+        <a href="{{p.link}}" class="portfolioDiv portfolio__item {{p.class}} ">
           <img src="{{p.image}}" alt="{{p.title}}">
           <div class="portfolio__content">
             <h3>{{p.title}}</h3>
             {{p.text | markdownify}}
           </div>
-        </div>
+        </a>
         {%- endfor -%}
       </div>
     </div>

@@ -74,5 +74,11 @@
     background-color: transparent;
     color: var(--main-color);
     cursor: pointer;
+
+    &:hover {
+      background-color: var(--main-color);
+      color: white;
+      transition: all 0.3s ease-in-out;
+    }
   }
 }

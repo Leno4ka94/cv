@@ -1,18 +1,20 @@
-<header id="header" class="nav-down">
+{%- assign n = site.data.navigation -%}
+<header class="header">
   <div class="container">
-    <div class="header__grid">
-      <!--<div class="header__logo">
-        <a href="/"><img width="100" height="56" src="" alt="logo"></a>
-      </div>-->
-      <div class="header__navigation">
-          <nav id="nav">
-            <div class="navbar" id="myNavbar">
-              {%- for i in site.data.navigation.nav -%}
-              <a href="{{i.link}}" class="nav_link">{{i.title}}</a>
-              {%- endfor -%}
-            </div>
+      <div class="header__nav">
+        <nav class="nav">
+          <div class="nav-links">
+            {%- for i in n.nav -%}
+              <a href="{{i.link}}" class="nav-link">{{i.title}}</a>
+            {%- endfor -%}
+          </div>
           </nav>
-        </div>
-    </div>
+          <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
   </div>
 </header>
+

@@ -38,6 +38,7 @@ services_section:
 
 portfolio_section:
   title: Portfolio 
+  subtitle: Click and see project
   btn: Load More
   btn-link: "#"
   items: 
@@ -51,21 +52,25 @@ portfolio_section:
         Website conversion from WordPress to Jekyll.
       image: assets/images/mighty-crop.png  
       class: development  
+      link: https://www.mightycrop.com/
     - title: Religion Call for Papers
       text: |
         A blog done on Jekyll. In addition to the blog, RSS was imported here in the form of XML.
       image: assets/images/religion.png
       class: design development
+      link: https://relcfp.com/
     - title: Swokiz
       text: |
         Emerging IT company offering digital transformation and software development services to clients in various business sectors.
       image: assets/images/swokiz.png
       class: design development
+      link: https://www.swokiz.com/en/
     - title: Firm Foundation Farm
       text: |
         Site about farm which dedicated to providing with high-quality, sustainably-raised meat and produce.
       image: assets/images/farm.png 
       class: design development
+      link: https://firmfoundationfarm.com/
     - title: To Do
       text: |
         Site about simple application that will facilitate the planning of your personal time.
@@ -81,6 +86,12 @@ portfolio_section:
         Site about simple application that will facilitate the planning of your personal time.
       image: assets/images/cyber.png
       class: design
+    - title: Figma Land
+      text: |
+        Templste of site that I develop after work;)
+      image: assets/images/figma-land.png
+      class: development
+      link: https://leno4ka94.github.io/1038-website/
 
 testimonials_section: 
   title: Testimo&shy;nials
@@ -88,13 +99,13 @@ testimonials_section:
     - image: assets/images/t1.png
     - image: assets/images/t2.png
     - image: assets/images/t3.png
-    - image: assets/images/t4.png
     - image: assets/images/t5.png
-    - image: assets/images/t6.png
     - image: assets/images/t7.png
+    - image: assets/images/t6.png
     - image: assets/images/t8.png
-    - image: assets/images/t9.png
     - image: assets/images/t10.png
+    - image: assets/images/t9.png
+    - image: assets/images/t4.png
     - image: assets/images/t11.png
     - image: assets/images/t12.png
 

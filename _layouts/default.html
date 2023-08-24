@@ -1,16 +1,16 @@
 <!DOCTYPE HTML>
-<html lang="en-US" class="">
+<html lang="en-US">
 {%- include head.html -%}
 
-<body class="{{page.page_id}}">
-  <div class="wrapper">
+<body>
+  {%- include navigation.html -%}
 
-    {{ content }}
+  {{ content }}
 
-    {%- include footer.html -%}
-  </div>
+  {%- include footer.html -%}
   <script src="/assets/js/filter-block.js"></script>
   <script src="/assets/js/go-top.js"></script>
+  <script src="/assets/js/burger.js"></script>
 </body>
 
 </html>

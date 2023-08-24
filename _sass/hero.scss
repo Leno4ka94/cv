@@ -1,29 +1,131 @@
 .hero {
+  background: radial-gradient(859.27% 166.24% at 3.65% -46.45%, rgba(65, 93, 165, 0.01) 0%, rgba(65, 93, 165, 0.05) 35.42%, rgba(65, 93, 165, 0.05) 50.61%, rgba(65, 93, 165, 0.00) 100%);
+  box-shadow: 0px 0px 29px 0px rgba(65, 93, 165, 0.25);
+  overflow: hidden;
   display: flex;
   background-image: url(/assets/images/hero.png);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: -425px;
   background-size: cover;
   z-index: -1;
-  height: 100%;
-  justify-content: center;
-  display: flex;
+  height: 880px;
+  position: relative;
 
-  @media (min-width: 500px) {
+  @media (min-width: 768px) {
+    background-position: -425px;
+    background-size: cover;
+  }
+
+  @media (min-width: 840px) {
+    background-position-x: -200px;
+    background-size: contain;
+  }
+
+  @media (min-width: 1230px) {
+    background-size: contain;
+    background-position-x: -200px;
+  }
+
+  @media (min-width: 1600px) {
+    background-size: cover;
+    background-image: url(/assets/images/hero-1.png);
+    background-position-x: 0;
+    height: 960px;
+  }
+
+  @media (min-width: 1920px) {
     background-position: left;
   }
 
-  .hero__content {
-    text-align: center;
-    place-content: center;
+  &:after {
+    @media (min-width: 500px) {
+      content: "";
+      position: absolute;
+      background: url(/assets/images/flower-decor.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: 0;
+      right: 0;
+      width: 350px;
+      height: 295px;
+      transform: rotate(175deg);
+      z-index: -10;
+    }
+
+    @media (min-width: 600px) {
+      width: 450px;
+      height: 395px;
+      background-size: 100%;
+    }
+
+    @media (min-width: 1230px) {
+      width: 700px;
+      height: 930px;
+      background: url(/assets/images/hero-decor.png);
+      background-repeat: no-repeat;
+      transform: rotate(0);
+    }
   }
-  
+
+
+  .hero__content {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+
+    @media (min-width: 600px) {
+      top: 60%;
+    }
+
+    @media (min-width: 768px) {
+      text-align: left;
+      top: 50%;
+    }
+
+    @media (min-width: 800px) {
+      text-align: left;
+      top: 50%;
+      left: 45%;
+    }
+
+    @media (min-width: 1083px) {
+      left: 35%;
+    }
+
+    @media (min-width: 1230px) {
+      text-align: center;
+      top: 40%;
+      transform: translateY(-50%);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @media (min-width: 1600px) {
+      top: 30%;
+      left: 60%;
+    }
+  }
+
   .hero__text {
-    margin-top: 55px;
+    max-width: 600px;
     color: rgba(0, 0, 0, 0.39);
-    font-family: Lato;
-    font-size: 50px;
+    margin: 30px auto 0;
+    font-family: "Lato";
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
+
+    @media (min-width: 425px) {
+      font-size: 40px;
+    }
+
+    @media (min-width: 800px) {
+      margin: 30px 0 0;
+    }
+
+    @media (min-width: 1230px) {
+      margin: 55px auto 0;
+      font-size: 50px;
+    }
   }
 }

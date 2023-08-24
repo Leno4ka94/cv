@@ -17,24 +17,25 @@
     background-repeat: no-repeat;
     width: 500px;
     height: 500px;
-    top: -13%;
-    left: -20%;
+    top: 0;
+    left: -40%;
     transform: rotate(350deg);
     z-index: -1;
 
+    @media (min-width: 375px) {
+      left: -20%;
+    }
+
     @media (min-width: 600px) {
-      top: -15%;
       left: -5%;
     }
 
     @media (min-width: 768px) {
-      top: -20%;
       left: -3%;
     }
 
     @media (min-width: 1115px) {
-      top: -30%;
-      left: -2%;
+      left: -1%;
     }
   }
 
@@ -47,9 +48,17 @@
     width: 500px;
     height: 500px;
     bottom: 0;
-    right: 2%;
+    right: -56%;
     transform: rotate(240deg);
     z-index: -1;
+
+    @media (min-width: 440px) {
+      right: -8%;
+    }
+
+    @media (min-width: 1115px) {
+      right: -4%;
+    }
   }
 
   .services__grid {
