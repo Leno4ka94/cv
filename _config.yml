@@ -1,9 +1,9 @@
 title: Lozovitska Olena - My personal website
-email: your-email@example.com
+email: solena677@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my showcase personal website, where pixels come to life and user interactions take center stage.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://leno4ka94.github.io/cv/" # the subpath of your site, e.g. /blog
+url: "https://leno4ka94.github.io/cv/" # the base hostname & protocol for your site, e.g. http://example.com
 
 exclude:
   - .sass-cache/
