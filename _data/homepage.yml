@@ -76,6 +76,7 @@ portfolio_section:
         Site about simple application that will facilitate the planning of your personal time.
       image: assets/images/to-do.png 
       class: design development
+      link: https://super-biscuit-9fee36.netlify.app/
     - title: 360 Virtual Tour
       text: |
         Site about simple application that will facilitate the planning of your personal time.
@@ -92,6 +93,18 @@ portfolio_section:
       image: assets/images/figma-land.png
       class: development
       link: https://leno4ka94.github.io/1038-website/
+    - title: CustomBlog
+      text: |
+        Templste of site for blog and some services. Minimalistic design
+      image: assets/images/customblog.jpg
+      class: design development
+      link: https://verdant-tapioca-cd9359.netlify.app
+    - title: Apex Legend
+      text: |
+        Templste of site for small game store. Love it<3
+      image: assets/images/apex-legend.jpg
+      class: design development
+      link: https://651ac11c5c1851184831623a--harmonious-seahorse-0a8a19.netlify.app/
 
 testimonials_section: 
   title: Testimo&shy;nials
