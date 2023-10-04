@@ -11,13 +11,24 @@ function showMenu() {
   bodyLock.classList.toggle('lock');
 }
 
-// Iterate over each mobile link and add a click event listener
 mobileLinks.forEach(link => {
   link.addEventListener('click', (event) => {
-      mobileMenu.classList.remove('active');
-      menuBtn.classList.remove('active');
-      bodyLock.classList.remove('lock');
+    mobileMenu.classList.remove('active');
+    menuBtn.classList.remove('active');
+    bodyLock.classList.remove('lock');
+    event.stopPropagation(); 
   });
 });
+
+window.addEventListener('click', (event) => {
+  if (mobileMenu.contains(event.target) && event.target !== menuBtn) {
+    mobileMenu.classList.remove('active');
+    menuBtn.classList.remove('active');
+    bodyLock.classList.remove('lock');
+  }
+});
+
+
+
 
 
